@@ -16,10 +16,9 @@ public abstract class AbstractClass {
 
     public AbstractClass(){}
 
-    public abstract void run();
-    //{
-//        System.out.println("run");
-//        List<Integer> list = new ArrayList<Integer>();
-//        list.add(2);
-    //}
+    public void run(){
+        System.out.println("run");
+        List<Integer> list = new ArrayList<Integer>();
+        list.add(2);
+    }
 }
