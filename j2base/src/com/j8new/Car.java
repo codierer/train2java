@@ -11,6 +11,15 @@ public class Car implements Vel,Fwheel {
         System.out.println("this is car");
     }
 
+    public Car(){}
+
+    public Car(String name){
+        System.out.println(name + "Car");
+    }
+    private void run(){
+        System.out.println("private run function");
+    }
+
     public static void main(String[] args){
         Car car = new Car();
         car.print();
